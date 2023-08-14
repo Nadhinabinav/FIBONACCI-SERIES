@@ -1,0 +1,30 @@
+18.FIBONACCI SERIES
+
+CODE:
+
+
+#include <stdio.h>
+
+void main() {
+    int n,a=0,b=1,c,i;
+    printf("ENTER THE VALUE N:  ");
+    scanf("%d",&n);
+    printf("%d %d",a,b);
+    for(i=3;i<=n;i++){
+        c=a+b;
+        a=b;
+        b=c;
+        printf("%d",c);
+    }
+    
+}
+
+OUTPUT:1
+
+ENTER THE VALUE N:  7
+0 112358
+
+OUTPUT:2
+
+ENTER THE VALUE N:  5
+0 1123
